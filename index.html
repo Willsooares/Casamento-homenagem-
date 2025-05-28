@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>4 anos de casados</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <style>
+  #cabeçalho {
+    border-bottom:2px #606060 solid;
+    height:70px;}
+  h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 20pt;
+  color: #333;}
+
+   H1{
+     font-family:'dancing script',cursive;
+     font-size:30pt;
+     color:#606060;
+     text-shadow:1px 1px 1px rgba(0,0,0,.6);}
+  
+    #interface {
+      padding: 40px 20px 10px 20px;
+    
+      width:700px;
+      background-color: white;
+      margin: auto auto 0px auto;
+      position: relative;
+      box-shadow:0px 0px 10px black;}
+    
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 5px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    nav li a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      background-color: #fce4ec;
+      padding: 10px;
+      margin: 2px;
+      transition: background-color 1s;
+    }
+
+    nav li a:hover {
+      background-color: #C71585;
+    }
+
+    nav li {
+      list-style-type: none;
+    }
+
+    body {
+      background-color: #FFF0F5;
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      font-size:20px;
+      text-align: justify;
+      text-indent: 20px;
+    }
+
+    figure.foto-legenda {
+      border: 8px solid white;
+      box-shadow: 1px 1px 4px black;
+    }
+
+    figure.foto-legenda img {
+      height:auto;
+      max-width:100%;
+      display:block;
+      margin:0 auto;}
+  
+    figure.foto-legenda:hover img {
+      transform: scale(1.05);
+      transition: 0.3s;
+    }
+  .menu-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  margin: 2px;
+  background-color: #fce4ec;
+  border: 1px solid #ddd;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  overflow: hidden;
+  transition: color 0.3s;
+}
+
+.menu-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.7), transparent);
+  transition: left 0.5s;
+}
+
+.menu-button:hover::after {
+  left: 100%;
+}
+  /* Estilo do botão voltar ao topo */
+  #btnTopo {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #C71585;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.5);
+  }
+
+  #btnTopo:hover {
+    background-color: #8B0A50;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="interface">
+    <nav>
+      <h1 style="display: none;">Menu Principal</h1>
+     <ul>
+  <li><a href="#inicio" class="menu-button">Inicio</a></li>
+  <li><a href="#Lar" class="menu-button">Lar</a></li>
+  <li><a href="#Israel" class="menu-button">Israel</a></li>
+  <li><a href="#Joshua" class="menu-button">Joshua</a></li>
+  <li><a href="#Gratidão" class="menu-button">Gratidão</a></li>
+  <li><a href="#Forever" class="menu-button">Forever</a></li>
+</ul>
+    </nav>
+
+    <section id="inicio">
+      <h1 id="cabeçalho"><i>A Riqueza da Minha Vida Está em Nós</i></h1><br>
+      <h3><u>O Início da Nossa Jornada</u></h3>
+      <p>Há 4 anos, iniciamos juntos uma jornada de amor, sonhos e fé. Eu e você, Izadora Natali, unimos nossas vidas diante de Deus, certos de que o nosso amor seria fortalecido a cada novo capítulo.</p>
+      <figure class="foto-legenda">
+        <img src="https://i.imgur.com/KYqIqK5.jpeg" alt="Descrição da imagem" />
+      </figure>
+    </section>
+
+    <section id="Lar">
+      <h3><u>A Conquista do Nosso Lar</u></h3>
+      <p>Deus foi bondoso conosco em cada detalhe. Morávamos de aluguel, sonhando com um lar só nosso, e Ele nos surpreendeu — conseguimos conquistar o nosso apartamento, um espaço que hoje é repleto de amor, risadas e memórias.</p>
+      <figure class="foto-legenda">
+        <img src="https://i.imgur.com/R84covh.jpeg" alt="Lar" />
+      </figure>
+    </section>
+
+    <section id="Israel">
+      <h3><u>O Milagre da Vida:</u></h3>
+      <h3>Nosso Filho <u>Israel</u></h3>
+      <p>E as bênçãos não pararam por aí: o nascimento do nosso primeiro filho, Israel, foi uma das maiores alegrias que já vivemos. Ver a nossa família crescer é a realização de sonhos que antes pareciam tão distantes.</p>
+      <figure class="foto-legenda">
+        <img src="https://i.imgur.com/nlNYQrA.jpeg" alt="Israel" />
+      </figure>
+    </section>
+
+    <section id="Joshua">
+      <h3><u>Uma Nova Promessa:</u></h3>
+      <h3>A Espera pelo <u>Joshua</u></h3>
+      <p>E agora, em junho, já esperamos com todo carinho a chegada do nosso segundo filho, Joshua, mais uma promessa viva do amor de Deus em nossas vidas.</p>
+      <figure class="foto-legenda">
+        <img src="https://i.imgur.com/Pdj6TuA.jpeg" alt="Joshua" />
+      </figure>
+    </section>
+
+    <section id="Gratidão">
+      <h3><u>Gratidão que Transborda</u></h3>
+      <p>Em todos esses momentos, o nosso coração se enche de gratidão e, como diz o Salmo 126:
+"Quando o Senhor restaurou a sorte de Sião, ficamos como quem sonha. Então a nossa boca se encheu de riso e a nossa língua de júbilo..."
+Assim nos sentimos: como quem sonha, com o coração transbordando de alegria.</p>
+      <figure class="foto-legenda">
+        <img src="https://i.imgur.com/MBXbDUF.jpeg" alt="Gratidão" />
+      </figure>
+    </section>
+
+    <section id="Forever">
+      <div style="margin-top: 20px;">
+        <h3><u>Meu Amor, Meu Presente Diário</u></h3>
+        <p>Izadora, cada dia ao seu lado é um presente. Que venham muitos e muitos anos de amor, fé e conquistas!
+</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Música de fundo -->
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <!-- Botão Voltar ao Topo -->
+  <button onclick="topFunction()" id="btnTopo" title="Voltar ao topo">↑</button>
+
+  <script>
+  const buttons = document.querySelectorAll('.menu-button');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.style.transform = 'scale(0.95)';
+      setTimeout(() => {
+        btn.style.transform = 'scale(1)';
+      }, 100);
+    });
+  });
+
+  // Mostrar o botão ao rolar a página
+  window.onscroll = function() {
+    const btn = document.getElementById("btnTopo");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  // Função para voltar ao topo
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  </script>
+</body>
+</html>
+
